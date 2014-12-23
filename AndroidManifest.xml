@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.swimtimes"
+      android:versionCode="1"
+      android:versionName="1.1">
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application 
+    	android:icon="@drawable/swimming_icon" 
+    	android:label="@string/app_name">
+        <activity android:name=".Splash" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                	<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreen" android:screenOrientation="portrait"></activity>
+        <activity android:name="MainActivity" android:screenOrientation="portrait"></activity>
+		<activity android:name=".LCMtimes" android:screenOrientation="portrait"></activity>
+		<activity android:name=".SCMtimes" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCYtimes" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".OWtimes" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM50FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM100FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM200FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM400FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM800FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM1500FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM50BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM100BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM200BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM50BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM100BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM200BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM50FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM100FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM200FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM200IM" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM400IM" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM200FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM400FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM800FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM200MDR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".LCM400MDR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM25FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM50FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM100FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM200FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM400FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM800FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM1500FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM25BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM50BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM100BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM200BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM25BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM50BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM100BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM200BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM25FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM50FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM100FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM200FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM100IM" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM200IM" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM400IM" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM200FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM400FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM800FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM200MDR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCM400MDR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY25FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY50FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY100FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY200FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY500FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY1000FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY1650FR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY25BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY50BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY100BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY200BK" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY25BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY50BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY100BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY200BR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY25FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY50FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY100FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY200FL" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY100IM" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY200IM" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY400IM" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY200FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY400FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY800FRR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY200MDR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SCY400MDR" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".OW1M" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".OW2M" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".OW3M" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".OW5M" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".OW5K" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".OW10K" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".OW25K" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".About" android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>

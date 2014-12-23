@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="cuts">
+	<item>"All Times"</item>
+	<item>"B"</item>
+	<item>"BB"</item>
+	<item>"A"</item>
+	<item>"AA"</item>
+	<item>"AAA"</item>
+	<item>"AAAA"</item>
+	<item>NRT</item>
+	<item>Winter Juniors (SCY)</item>
+	<item>Summer Juniors (LCM)</item>
+	<item>U.S. Open</item>
+	<item>Winter Nationals (SCY)</item>
+	<item>Summer Nationals (LCM)</item>
+	<item>Olympic Trials</item>
+	</array>    
+</resources>

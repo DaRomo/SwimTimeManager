@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Swim Time Manager</string>
+    <string name="lcm50fr">50 LCM Freestyle</string>
+    <string-array name="cuts_array">
+        <item>"All Times"</item>
+        <item>"B"</item>
+        <item>"BB"</item>
+        <item>"A"</item>
+        <item>"AA"</item>
+        <item>"AAA"</item>
+        <item>"AAAA"</item>
+        <item>NRT</item>
+        <item>Winter Juniors (SCY)</item>
+        <item>Summer Juniors (LCM)</item>
+        <item>U.S. Open</item>
+        <item>Winter Nationals (SCY)</item>
+        <item>Summer Nationals (LCM)</item>
+        <item>Olympic Trials</item>
+    </string-array>
+</resources>

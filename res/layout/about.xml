@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/water">
+  <LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<TextView 
+  		android:text="About"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		android:layout_gravity="center"
+  		android:textSize="30sp"
+  		android:textColor="#FFFF0000"
+  		android:textStyle="bold"
+  		android:typeface="sans"
+ 	 />
+ 	 <TextView 
+  		android:text="Swim Time Manager created by:"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		android:layout_gravity="center"
+  		android:textSize="20sp"
+  		android:textColor="#FFFF0000"
+  		android:textStyle="bold"
+  		android:typeface="sans"
+  		android:layout_marginTop="50dip"
+ 	 />    
+ 	 <TextView 
+  		android:text="Matthew Romanelli,"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		android:layout_gravity="center"
+  		android:textSize="20sp"
+  		android:textColor="#FFFF0000"
+  		android:textStyle="bold"
+  		android:typeface="sans"
+  		android:layout_marginTop="15dip"
+ 	 />    
+ 	 <TextView 
+  		android:text="Founder of Romo Studios"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		android:layout_gravity="center"
+  		android:textSize="20sp"
+  		android:textColor="#FFFF0000"
+  		android:textStyle="bold"
+  		android:typeface="sans"
+ 	 />  
+ 	 <Button 
+ 	 	android:background="@drawable/button_bth"
+ 	 	android:layout_height="wrap_content"
+ 	 	android:layout_width="wrap_content"
+ 	 	android:layout_gravity="center"
+ 	 	android:layout_marginTop="50dip"
+ 	 	android:id="@+id/back"
+ 	 />  
+ 	 </LinearLayout>
+ 	 <LinearLayout
+  		android:orientation="vertical"
+ 		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:gravity="bottom">
+ 	 <TextView 
+  		android:text="Icon picture brought to you by clker.com"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		android:layout_gravity="center"
+  		android:textColor="#FF000000"
+  		android:typeface="sans"		
+ 	 />   
+ 	 </LinearLayout> 
+</RelativeLayout>

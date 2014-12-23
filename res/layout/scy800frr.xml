@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/water">
+  <TextView 
+  	android:text="800 SCY Free Relay"
+  	android:layout_height="wrap_content"
+  	android:layout_width="wrap_content"
+  	android:layout_gravity="center"
+  	android:textSize="30sp"
+  	android:textColor="#FFFF0000"
+  	android:textStyle="bold"
+  	android:typeface="sans"
+  />
+          <TextView 
+          	android:textStyle="bold" 
+          	android:text="Best Time:" 
+          	android:layout_height="wrap_content" 
+          	android:typeface="sans" 
+          	android:layout_width="wrap_content" 
+          	android:textSize="20sp" 
+          	android:textColor="#FFFF0000"
+          	android:padding="5dip"
+          	android:layout_marginTop="20dip"
+          	android:layout_gravity="center"
+          	/>
+          <EditText 
+          	android:inputType="text" 
+          	android:id="@+id/editText1" 
+          	android:layout_height="wrap_content" 
+          	android:layout_width="wrap_content"
+          	android:minWidth="90dip"
+          	android:padding="5dip"
+          	android:freezesText="true"
+          	android:layout_gravity="center">
+          </EditText>
+      	<TextView     	
+          	android:textStyle="bold" 
+          	android:text="Cut Earned:" 
+          	android:layout_height="wrap_content" 
+          	android:typeface="sans" 
+          	android:layout_width="wrap_content" 
+          	android:textSize="20sp" 
+          	android:textColor="#FFFF0000"
+          	android:padding="5dip"
+          	android:layout_gravity="center"
+          	/>   
+          <EditText 
+          	android:inputType="text" 
+          	android:id="@+id/editText2" 
+          	android:layout_height="wrap_content" 
+          	android:layout_width="wrap_content"
+          	android:minWidth="90dip"
+          	android:padding="5dip"
+          	android:freezesText="true"
+          	android:layout_gravity="center">
+          </EditText> 	
+      	<TextView 
+      		android:textStyle="bold" 
+          	android:text="Next Cut/Time:" 
+          	android:layout_height="wrap_content" 
+          	android:typeface="sans" 
+          	android:layout_width="wrap_content" 
+          	android:textSize="20sp" 
+          	android:textColor="#FFFF0000"
+          	android:padding="5dip"
+          	android:layout_gravity="center"
+          />	
+         <EditText 
+          	android:inputType="text" 
+          	android:id="@+id/editText3" 
+          	android:layout_height="wrap_content" 
+          	android:layout_width="wrap_content"
+          	android:minWidth="90dip"
+          	android:padding="5dip"
+          	android:freezesText="true"
+          	android:layout_gravity="center">
+          </EditText> 	
+         <TextView 
+      		android:textStyle="bold" 
+          	android:text="Goal Time:" 
+          	android:layout_height="wrap_content" 
+          	android:typeface="sans" 
+          	android:layout_width="wrap_content" 
+          	android:textSize="20sp" 
+          	android:textColor="#FFFF0000"
+          	android:padding="5dip"
+          	android:layout_gravity="center"
+          />	
+         <EditText 
+          	android:inputType="text" 
+          	android:id="@+id/editText4" 
+          	android:layout_height="wrap_content" 
+          	android:layout_width="wrap_content"
+          	android:minWidth="90dip"
+          	android:padding="5dip"
+          	android:freezesText="true"
+          	android:layout_gravity="center">
+          </EditText> 
+          <Button
+          	android:layout_width="wrap_content"
+          	android:layout_height="wrap_content"
+          	android:text="Back to SCY events"
+          	android:layout_marginTop="50dip"
+          	android:id="@+id/hp">
+          </Button>
+</LinearLayout>
+</ScrollView>

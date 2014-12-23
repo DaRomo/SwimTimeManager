@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/water">
+  	<Button 
+    	android:text="Back to Homepage" 
+    	android:id="@+id/BTH" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+  	<Button 
+    	android:text="25 Freestyle" 
+    	android:id="@+id/SCM25FR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+ 	<Button 
+    	android:text="50 Freestyle" 
+    	android:id="@+id/SCM50FR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+    <Button 
+    	android:text="100 Freestyle" 
+    	android:id="@+id/SCM100FR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="200 Freestyle" 
+    	android:id="@+id/SCM200FR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="400 Freestyle" 
+    	android:id="@+id/SCM400FR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="800 Freestyle" 
+    	android:id="@+id/SCM800FR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="1500 Freestyle" 
+    	android:id="@+id/SCM1500FR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="25 Backstroke" 
+    	android:id="@+id/SCM25BK" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="50 Backstroke" 
+    	android:id="@+id/SCM50BK" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:text="100 Backstroke" android:id="@+id/SCM100BK"></Button>
+   	<Button 
+    	android:text="200 Backstroke" 
+    	android:id="@+id/SCM200BK" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="25 Breaststroke" 
+    	android:id="@+id/SCM25BR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="50 Breaststroke" 
+    	android:id="@+id/SCM50BR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="100 Breaststroke" 
+    	android:id="@+id/SCM100BR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="200 Breaststroke" 
+    	android:id="@+id/SCM200BR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="25 Butterfly" 
+    	android:id="@+id/SCM25FL" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="50 Butterfly" 
+    	android:id="@+id/SCM50FL" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+  	<Button 
+    	android:text="100 Butterfly" 
+    	android:id="@+id/SCM100FL" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="200 Butterfly" 
+    	android:id="@+id/SCM200FL" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="100 IM" 
+    	android:id="@+id/SCM100IM" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="200 IM" 
+    	android:id="@+id/SCM200IM" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="400 IM" 
+    	android:id="@+id/SCM400IM" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="200 Freestyle Relay" 
+    	android:id="@+id/SCM200FRR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="400 Freestyle Relay" 
+    	android:id="@+id/SCM400FRR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="800 Freestyle Relay" 
+    	android:id="@+id/SCM800FRR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="200 Medley Relay" 
+    	android:id="@+id/SCM200MDR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+   	<Button 
+    	android:text="400 Medley Relay" 
+    	android:id="@+id/SCM400MDR" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center">
+   	</Button>
+</LinearLayout>
+</ScrollView>
